@@ -1,4 +1,4 @@
-houses = [
+const houses = [
   { name: 'Gryffindor' },
   { name: 'Slytherin' },
   { name: 'Ravenclaw' },
@@ -10,5 +10,5 @@ exports.seed = function(knex) {
     .then(function () {
       return knex('houses').insert(houses);
     })
-    .then(() => console.log("\n== Tables have been seeded :) ==\n"));;
+    .then(() => console.log("\n== Tables have been seeded :) ==\n"));
 };

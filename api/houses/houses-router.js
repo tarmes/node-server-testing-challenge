@@ -40,7 +40,7 @@ router.delete('/:id', async (req, res) => {
    try {
       const deleted = await Houses.remove(id);
       if (!deleted) {
-         res.status(404).json({ message: error.message })
+         res.status(404).json({ message: 'nothing to delete!' })
       } else {
          res.status(200).json({ message: 'House deleted successfully!'})
       }
