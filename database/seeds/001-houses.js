@@ -1,8 +1,8 @@
 houses = [
-  { name: 'gryffindor' },
-  { name: 'slytherin' },
-  { name: 'ravenclaw' },
-  { name: 'hufflepuff' }
+  { name: 'Gryffindor' },
+  { name: 'Slytherin' },
+  { name: 'Ravenclaw' },
+  { name: 'Hufflepuff' }
 ]
 
 exports.seed = function(knex) {
